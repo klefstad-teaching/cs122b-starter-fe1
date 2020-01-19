@@ -1,0 +1,19 @@
+:root {
+  --background-color: #ffffff;
+  --detail-color: #262626;
+}
+
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--detail-color);
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
