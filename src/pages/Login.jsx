@@ -33,6 +33,18 @@ class Login extends Component {
     this.setState({ [name]: value });
   };
 
+  /*
+    For all "code" inside of JSX you must use {code}.
+
+    if you have a variable called divClassName
+
+    and you enter in <div className=divClassName> 
+    this will give an error as divClassName is not valid
+    JSX. but once you wrap in in {} to make it
+    <div className={divClassName}> it will work and treat
+    the contents inside the brackets as normal javascript
+    code. This is very useful for creating dynamic content.
+  */
   render() {
     const { email, password } = this.state;
 
