@@ -22,7 +22,7 @@
 2. Make a folder named temp
 3. Create a new shortcut with the location
 ~~~
-"C:\Program Files (x86)\Google\Chrome\Application" --disable-web-security --user-data-dir="<full path to your temp folder>"
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="<full path to your temp folder>"
 ~~~
 4. Install React Developer Tools
 5. Make localhost:3000 your homepage for ease of use
