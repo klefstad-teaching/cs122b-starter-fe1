@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
-import Socket from "./util/Socket";
+import Socket from "./services/Socket";
 
 import "./index.css";
 

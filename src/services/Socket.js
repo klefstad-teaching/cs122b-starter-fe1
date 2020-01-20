@@ -1,5 +1,4 @@
 import Axios from "axios";
-import Cookies from "js-cookie";
 
 import Config from "../Config.json";
 
@@ -12,10 +11,6 @@ const HTTPMethod = Object.freeze({
 });
 
 function initSocket() {
-  const { common } = Axios.defaults.headers;
-
-  common["session_id"] = Cookies.get("session_id");
-
   Axios.defaults.baseURL = baseUrl;
 }
 

@@ -1,9 +1,5 @@
 {
-  "baseUrl": "http://localhost:12345/api/g",
-  "pollLimit": 10,
-  "gatewayEPs": {
-    "reportEP": "/report"
-  },
+  "baseUrl": "http://localhost:12345/api/",
   "idmEPs": {
     "loginEP": "/idm/login"
   }

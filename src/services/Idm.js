@@ -1,4 +1,4 @@
-import Socket from "../util/Socket";
+import Socket from "./Socket";
 import { idmEPs } from "../Config.json";
 
 const { loginEP } = idmEPs;

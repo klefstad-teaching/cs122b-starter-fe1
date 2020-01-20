@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "./pages.css";
+import "../css/form.css";
 
 class Register extends Component {
   state = {};

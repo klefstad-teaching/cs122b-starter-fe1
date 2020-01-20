@@ -4,6 +4,7 @@
 
 1. Install Visual Studio Code
 2. Install the following addons (and any other addons you would like)
+3. Install Chrome Extension - React Developer Tools
 
 - Prettier - Code formatter (This will automatically format your code as you write)
 - React Native Tools - Helps with writing some repetitive code

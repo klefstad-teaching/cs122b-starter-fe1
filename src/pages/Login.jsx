@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import Idm from "../services/Idm";
 
-import "./pages.css";
+import "../css/form.css";
 
 class Login extends Component {
   state = {
