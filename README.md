@@ -60,8 +60,8 @@ if there are more values in state like this:
 // Starting state
 state = {
     loggedIn: true,
-    email: user@uci.edu
-};
+    email: "user@uci.edu"
+  };
 
 // Function Called
 this.setState({ loggedIn: false });
@@ -69,8 +69,8 @@ this.setState({ loggedIn: false });
 // New State
 state = {
     loggedIn: false,
-    email: user@uci.edu   // Notice that email does not change
-};
+    email: "user@uci.edu"   // Notice that email does not change
+  };
 ```
 
 
@@ -95,10 +95,10 @@ this will be undefined.
 // without "this" binding
 func() {
     this.setState() // throws error, this is undefined.
-}
+  }
 
 // with "this" binding
 func = () => {
     this.setState() // This is fine.
-}
+  }
 ```
