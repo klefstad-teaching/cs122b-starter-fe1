@@ -4,10 +4,9 @@
 
 1. Install Visual Studio Code
 2. Install the following addons (and any other addons you would like)
-3. Install Chrome Extension - React Developer Tools
-
 - Prettier - Code formatter (This will automatically format your code as you write)
 - React Native Tools - Helps with writing some repetitive code
+4. Create a Chrome Shortcut with no security, follow instructions here: [Chrome Instructions](#Using-Chrome-Without-CORS)
 
 ### Setup instructions
 
@@ -16,6 +15,17 @@
 3. Type `npm install` within the root of this repo to install all the dependencies (This will take a while)
 4. Type `npm start` to start the server and you should have a window open with the front end
 5. [In case of error] If you run into a missing dependency error try `npm install` again then `npm start` if the problem persists manually install the dependency it is asking for.
+
+### Using Chrome Without CORS
+
+1. Create a folder to have your testing Chrome
+2. Make a folder named temp
+3. Create a new shortcut with the location
+~~~
+"C:\Program Files (x86)\Google\Chrome\Application" --disable-web-security --user-data-dir="<full path to your temp folder>"
+~~~
+4. Install React Developer Tools
+5. Make localhost:3000 your homepage for ease of use
 
 ### Dependencies
 
