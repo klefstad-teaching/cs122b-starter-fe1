@@ -23,7 +23,7 @@ class Login extends Component {
     const { email, password } = this.state;
 
     Idm.login(email, password)
-      .then(response => alert(response))
+      .then(response => alert(JSON.stringify(response.data, null, 4)))
       .catch(error => alert(error));
   };
 
