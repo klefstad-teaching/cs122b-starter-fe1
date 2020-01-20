@@ -90,7 +90,7 @@ func() {}
 func = () => {}
 ```
 
-the latter, func = () => {} will automaticly
+the latter, func = () => {} will automatically
 bind "this" to it. In these functions you can
 call this, however in the first declaration
 this will be undefined.
