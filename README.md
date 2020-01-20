@@ -39,44 +39,40 @@ The way setState works is by taking an object and
 comparing the values in the new object and updateing
 any overlap in the state value
 
-For Example:
-
 ```javascript
-state = { loggedIn: true };
-```
+// Starting state
+state = { 
+    loggedIn: true 
+  };
 
-Would be updated using:
-
-```javascript
+// Function Called
 this.setState({ loggedIn: false });
+
+// New State
+state = { 
+    loggedIn: true 
+  };
 ```
 
 if there are more values in state like this:
 
 ```javascript
+// Starting state
 state = {
     loggedIn: true,
     email: user@uci.edu
 };
-```
 
-and the function
-
-```javascript
+// Function Called
 this.setState({ loggedIn: false });
-```
 
-is called the state would update to:
-
-```javascript
+// New State
 state = {
     loggedIn: false,
-    email: user@uci.edu
+    email: user@uci.edu   // Notice that email does not change
 };
 ```
 
-leaving all other values other that the updated
-ones alone.
 
 #### functions
 
@@ -94,3 +90,15 @@ the latter, func = () => {} will automatically
 bind "this" to it. In these functions you can
 call this, however in the first declaration
 this will be undefined.
+
+```javascript
+// without "this" binding
+func() {
+    this.setState() // throws error, this is undefined.
+}
+
+// with "this" binding
+func = () => {
+    this.setState() // This is fine.
+}
+```
