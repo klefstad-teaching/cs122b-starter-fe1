@@ -21,7 +21,7 @@
 
 ### Setup instructions
 
-1. Download and install node.js - Current version: 13.1.0
+1. Download and install node.js - Current version: 13.7.0
 2. Type `npm` in your terminal to ensure you correctly installed node
 3. Type `npm install` **within the root of this repo** to install all the dependencies (This will take a while)
 4. Type `npm start` **within the root of this repo** to start the server and you should have a window open with the front end
