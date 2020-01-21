@@ -11,7 +11,7 @@
 ### Using Chrome Without CORS
 
 1. Create a folder to have your testing Chrome
-2. Make a folder named temp
+2. Create a folder within it named temp
 3. Create a new shortcut with the location
 ~~~
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="<full path to your temp folder>"
