@@ -2,7 +2,7 @@
 
 ### Pre-Setup
 
-1. Install Visual Studio Code
+1. Install Visual Studio Code, NOTE: This is not Visual Studio
 2. Install the following addons (Optional but strongly recommended)
 - Prettier - Code formatter (This will automatically format your code as you write)
 - React Native Tools - Helps with writing some repetitive code
