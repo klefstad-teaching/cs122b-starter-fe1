@@ -16,8 +16,12 @@
 ~~~
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="<full path to your temp folder>"
 ~~~
-4. Install React Developer Tools
-5. Make localhost:3000 your homepage for ease of use
+4. If it worked you should be able to see the warning: 
+~~~
+you are using an unsupported command-line flag: --disable-web-security. Stability and security will suffer.
+~~~
+5. Install React Developer Tools
+6. Make localhost:3000 your homepage for ease of use
 
 ### Setup instructions
 
