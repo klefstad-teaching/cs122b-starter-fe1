@@ -1,6 +1,6 @@
 # CS122B - Frontend 1
 
-### Pre-Setup
+### Pre-Setup if you would like to use Visual Studio instead of WebStorm
 
 1. Install Visual Studio Code, NOTE: This is not Visual Studio
 2. Install the following addons (Optional but strongly recommended)
@@ -47,44 +47,18 @@ In case you get an error for a missing dependency just enter in these commands t
 
 ### Notes
 
-##### this.setState()
+##### useState()
 
-The way setState works is by taking an object and
-comparing the values in the new object and updateing
-any overlap in the state value
+The way useState works is by getting a varaiable and a function to update the variable
 
 ```javascript
 // Starting state
-state = { 
-    loggedIn: true 
-  };
+const [ total, setTotal ] = useState();
+// Starting state With Default Value
+const [ page, setPage ] = useState(1);
 
-// Function Called
-this.setState({ loggedIn: false });
-
-// New State
-state = { 
-    loggedIn: true 
-  };
-```
-
-if there are more values in state like this:
-
-```javascript
-// Starting state
-state = {
-    loggedIn: true,
-    email: "user@uci.edu"
-  };
-
-// Function Called
-this.setState({ loggedIn: false });
-
-// New State
-state = {
-    loggedIn: false,
-    email: "user@uci.edu"   // Notice that email does not change
-  };
+// Function to Update
+setTotal(100);
 ```
 
 
